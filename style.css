@@ -27,9 +27,9 @@
 
 /* Editable historical-map background */
 #map, .leaflet-container, .leaflet-map-pane, .leaflet-tile-pane { background: var(--map-background, #000); }
-.leaflet-nhap-pane {
-  filter: grayscale(100%) invert(100%) contrast(115%);
+/* High-contrast black & white */
+.leaflet-tile-pane {
+    filter: grayscale(100%) contrast(115%);
 }
-
 
 
